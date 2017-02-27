@@ -143,9 +143,15 @@ a {
 
 .flex-column {
   display: flex;
-  flex-direction: column;
+  flex-direction: line;
   flex-wrap: nowrap;
   padding: 10px;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: line;
+  flex-wrap: nowrap;
 }
 
 .center-content {
